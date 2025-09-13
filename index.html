@@ -3,9 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="reset.css" rel="stylesheet" />
-    <title>Document</title>
+    <link href="output.css" rel="stylesheet" />
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <style>
+      html {
+        font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+      }
+    </style>
+    <title>Young | college student</title>
   </head>
-  <body></body>
+  <body>
+    <div class="wrapper"></div>
+      <header>
+        <div class="menu">
+          <div class="logo">
+            <a href="/">young</a>
+          </div>
+          <ul>
+            <li>
+              <a href="/about">about</a>
+            </li>
+            <li>
+              <a href="/codes">codes</a> 
+            </li>
+            <li>
+              <a href="/spotify">spotify</a> 
+            </li>
+          </ul>
+        </div>
+        <div class="social">
+          <ul>
+            <li>
+              <a href="https://github.com/iamparkj" target="_blank" class="smaller">
+                <span class="icon-github"></span>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:bloomwayz@snu.ac.kr" target="_blank">
+                <span class="icon-mail_outline"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#" onclick="switchTheme()" title="Switch theme?">
+                <span class="icon-invert_colors2" id="theme-switcher"></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <div class="page" markdown="1">
+        <img class="w-2xs rounded-full" src="images/1.jpg" />
+      </div>
+    </div>
+  </body>
   <script src="index.js"></script>
 </html>
